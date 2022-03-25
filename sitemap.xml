@@ -8,17 +8,21 @@
     <url>
         <loc>https://programmer2514.github.io/</loc>
         <lastmod>2022-03-25T14:16:40+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
         <loc>https://programmer2514.github.io/contact.html</loc>
         <lastmod>2022-03-25T14:16:40+00:00</lastmod>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://programmer2514.github.io/about.html</loc>
         <lastmod>2022-03-25T14:16:40+00:00</lastmod>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://programmer2514.github.io/duotrigentordle/</loc>
         <lastmod>2022-03-25T14:16:40+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
 </urlset>
