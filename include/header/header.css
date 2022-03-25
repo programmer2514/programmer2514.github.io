@@ -1,0 +1,118 @@
+header {
+    padding: 0;
+    margin: 0;
+}
+
+#header-top {
+    background: black;
+    padding: 2vh 6vw 2vh 6vw;
+    margin: 0;
+    width: 88vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    display: inline;
+    font-size: 2.5vh;
+    margin: 0;
+    transform: translateY(-0.625vh);
+    color: #c0c0c8;
+    height: 0;
+    text-decoration: none;
+    transition: 0.15s ease;
+    padding: 1.5vh;
+    cursor: pointer;
+}
+
+header nav span a {
+    border: 0.4vh solid #101018;
+    padding: 1.5vh 2vh;
+    margin-left: 1vh;
+    border-radius: 1vh;
+}
+
+.logo img {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    margin: 0 1vh;
+    vertical-align: center;
+    transition: 0.15s ease;
+}
+
+.logo span, .logo span a {
+    display: inline-block;
+    font-size: 3.5vh;
+    margin: 0 0;
+    transform: translateY(-1.5vh);
+    font-weight: bold;
+    color: #c0c0c8;
+    height: 0;
+    text-decoration: none;
+    transition: 0.15s ease;
+    padding: 0;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    #header-top {
+        padding: 3vh 4vw 3vh 4vw;
+        width: 92vw;
+    }
+
+    header nav a {
+        font-size: 2.5vmax;
+        margin: 0 1.5vmax;
+        transform: translateY(-0.625vmax);
+    }
+    
+    .logo img {
+        width: 8vmax;
+        height: 8vmax;
+        margin: 0 1vmax;
+    }
+    
+    .logo span, .logo span a {
+        font-size: 3.5vmax;
+        transform: translateY(-1.5vmax);
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #header-top {
+        flex-direction: column;
+    }
+    
+    .logo {
+        padding-bottom: 3vh;
+    }
+    
+    header nav {
+        padding-bottom: 1vh;
+    }
+
+    header nav a {
+        margin: 0 1vmax;
+    }
+}
+
+.logo span a:hover, header nav a:hover {
+    color: #e0e0e8;
+}
+
+.logo span a:active, header nav a:active {
+    color: white;
+}
+
+header nav span a:hover {
+    border-color: #202028;
+}
+
+header nav span a:active {
+    border-color: #303038;
+}
+
+.logo img:hover {
+    border-radius: 25%;
+}

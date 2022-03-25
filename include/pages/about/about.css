@@ -1,0 +1,61 @@
+main p, ul {
+    font-size: 3vh;
+    margin: 0;
+    padding: 1vh 0;
+    color: #b0b0b8;
+    text-align: left;
+}
+
+main h1 {
+    font-size: 6vh;
+    margin: 0;
+    padding: 5vh 0;
+}
+
+main img {
+    width: 25vw;
+    height: auto;
+    margin-left: 5vw;
+    border-radius: 3vw;
+}
+
+main {
+    margin: 5vmin 35vmin;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    main p, ul {
+        font-size: 4vmax;
+    }
+    
+    main h1 {
+        font-size: 10vmax;
+        padding: 5vmax 0;
+    }
+
+    main img {
+        width: 25vmax;
+        margin-left: 0;
+        margin-top: 5vmax;
+    }
+
+    main {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    main img {
+        width: 25vh;
+        margin-left: 0;
+        margin-top: 5vh;
+    }
+
+    main {
+        flex-direction: column;
+    }
+}

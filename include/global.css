@@ -1,0 +1,61 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #101018;
+    background-image: url("/img/background.png");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #e0e0e8;
+    text-align: center;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    margin: 5vmin 25vmin;
+    border: 0;
+    padding: 0;
+}
+
+main > * {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #6090f0;
+    transition: 0.15s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #80b0ff;
+}
+
+a:active {
+    text-decoration: none;
+    color: #a0c0ff;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    html, body {
+        background-size: 100% 175vh;
+    }
+    
+    main {
+        margin: 5vmin 15vmin !important;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    html, body {
+        background-size: 200% 175vh;
+    }
+    
+    main {
+        margin: 5vmin !important;
+    }
+}
