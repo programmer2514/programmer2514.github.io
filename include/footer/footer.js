@@ -1,11 +1,7 @@
 class Footer {
-
-    constructor() {
-        this.element = document.getElementsByTagName("footer")[0];
-        document.body.addEventListener('load', this.init());
-    }
     
     init() {
+        this.element = document.getElementsByTagName("footer")[0];
         this.element.innerHTML = `
             <div id="footer-top">
                 <span>Copyright &copy; 2022 Benjamin Pryor</span>
@@ -17,7 +13,6 @@ class Footer {
                 </nav>
             </div>
         `;
-        this.reposition();
         window.addEventListener('resize', function() {
             try {
                 footer.reposition();
@@ -31,3 +26,8 @@ class Footer {
 }
 
 let footer = new Footer;
+
+window.addEventListener('load', function() {
+    footer.init();
+    footer.reposition();
+});
