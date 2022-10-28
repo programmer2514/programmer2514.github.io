@@ -67,157 +67,157 @@ main h1 {
 
 
 .card-1 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/1.png');
 }
 .card-1:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/1.png');
 }
 .card-1:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/1.png');
 }
 
 .card-2 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/2.png');
 }
 .card-2:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/2.png');
 }
 .card-2:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/2.png');
 }
 
 .card-3 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/3.png');
 }
 .card-3:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/3.png');
 }
 .card-3:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/3.png');
 }
 
 .card-4 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/4.png');
 }
 .card-4:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/4.png');
 }
 .card-4:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/4.png');
 }
 
 .card-5 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/5.png');
 }
 .card-5:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/5.png');
 }
 .card-5:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/5.png');
 }
 
 .card-6 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/6.png');
 }
 .card-6:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/6.png');
 }
 .card-6:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/6.png');
 }
 
 .card-7 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/7.png');
 }
 .card-7:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/7.png');
 }
 .card-7:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/7.png');
 }
 
 .card-8 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/8.png');
 }
 .card-8:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/8.png');
 }
 .card-8:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/8.png');
 }
 
 .card-9 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/9.png');
 }
 .card-9:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/9.png');
 }
 .card-9:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/9.png');
 }
 
 .card-10 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/10.png');
 }
 .card-10:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/10.png');
 }
 .card-10:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/10.png');
 }
 
 .card-11 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/11.png');
 }
 .card-11:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/11.png');
 }
 .card-11:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/11.png');
 }
 
 .card-12 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.8), rgba(24, 24, 30, 0.7))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.8), rgba(12, 12, 15, 0.7))
                     , url('/img/cards/12.png');
 }
 .card-12:hover {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.9), rgba(24, 24, 30, 0.8))
+    background-image: linear-gradient(rgba(12, 12, 15, 0.9), rgba(12, 12, 15, 0.8))
                     , url('/img/cards/12.png');
 }
 .card-12:active {
-    background-image: linear-gradient(rgba(24, 24, 30, 1.0), rgba(24, 24, 30, 0.9))
+    background-image: linear-gradient(rgba(12, 12, 15, 1.0), rgba(12, 12, 15, 0.9))
                     , url('/img/cards/12.png');
 }
