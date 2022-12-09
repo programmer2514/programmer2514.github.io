@@ -33,6 +33,18 @@ header nav span a {
     border-radius: 1vh;
 }
 
+.badge {
+    width: 8vh;
+}
+
+.badge-wrapper {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    padding: 0;
+    margin: 0;
+}
+
 .logo img {
     width: 8vh;
     height: 8vh;
@@ -98,6 +110,13 @@ header nav span a {
         margin-left: 1vw;
         border-radius: 1vmax;
     }
+
+    .badge-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
     
     .header-dropdown a {
         padding: 1.5vmax 2vmax;
@@ -123,8 +142,12 @@ header nav span a {
     #header-top {
         flex-direction: column;
     }
-    
-    .logo {
+
+    .badge-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
         padding-bottom: 2vh;
     }
     

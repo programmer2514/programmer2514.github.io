@@ -8,6 +8,11 @@ class Header {
                     <a href="/"><img src="/img/user-icon.png" alt="" /></a>
                     <span><a href="/">programmer2514</a></span>
                 </div>
+                <div class="badge-wrapper">
+                    <a target="_blank" href="https://www.credly.com/badges/b8705b41-adac-412b-8680-83e3ffaaf995/public_url">
+                        <img class="badge" src="https://user-images.githubusercontent.com/43104632/206700432-5f75c05d-7306-493b-9b1e-83fcefc3eb27.png" alt="" />
+                    </a>
+                </div>
                 <nav id="header-links">
                     <a href="/">Home</a>
                     <a href="/about.html">About</a>
