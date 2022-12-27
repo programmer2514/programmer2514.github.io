@@ -16,7 +16,7 @@ class Header {
                 <nav id="header-links">
                     <a href="/">Home</a>
                     <a href="/about.html">About</a>
-                    <a class="header-dropdown-link">Live Projects</a>
+                    <a class="header-dropdown-link">Projects</a>
                         <div class="header-dropdown">
                             <a href="/duotrigentordle">Duotrigentordle</a>
                         </div>
