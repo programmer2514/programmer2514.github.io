@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /l/
 Sitemap: https://programmer2514.github.io/sitemap.xml

@@ -1,64 +1,69 @@
 header {
     padding: 0;
     margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 #header-top {
     background: black;
-    padding: 2vh 6vw 2vh 6vw;
+    padding: 1.5em;
     margin: 0;
-    width: 88vw;
+    width: calc(100vw - 3em);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header nav a {
-    font-size: 2.5vh;
+    font-size: 1.25em;
     margin: 0;
-    transform: translateY(-0.625vh);
+    transform: translateY(-0.3125em);
     color: #c0c0c8;
     height: 0;
     text-decoration: none;
     transition: 0.15s ease;
-    padding: 1.5vh;
+    padding: 0.5em;
     cursor: pointer;
 }
 
 header nav span a {
     display: inline;
-    border: 0.4vh solid #101018;
-    padding: 1.5vh 2vh;
-    margin-left: 1vh;
-    border-radius: 1vh;
+    border: 0.1em solid #101018;
+    padding: 0.7em 0.9em;
+    margin-left: 0.5em;
+    border-radius: 0.5em;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: row;
 }
 
 .badge {
-    width: 8vh;
+    width: 1.5em;
 }
 
 .badge-wrapper {
-    position: absolute;
-    left: 50vw;
-    transform: translateX(-50%);
     padding: 0;
-    margin: 0;
+    margin: 0 0.5em;
+    transform: translateY(1em);
 }
 
 .logo img {
-    width: 8vh;
-    height: 8vh;
+    width: 4em;
     border-radius: 50%;
-    margin: 0 1vh;
+    margin: 0 0.5em;
     vertical-align: center;
     transition: 0.15s ease;
 }
 
 .logo span, .logo span a {
     display: inline-block;
-    font-size: 3.5vh;
-    margin: 0 0;
-    transform: translateY(-1.5vh);
+    font-size: 1.375em;
+    margin: 0;
+    transform: translateY(-0.5em);
     font-weight: bold;
     color: #c0c0c8;
     height: 0;
@@ -83,72 +88,39 @@ header nav span a {
 .header-dropdown a {
     height: auto;
     background: #020204;
-    padding: 1.5vh 2vh;
+    padding: 0.7em 0.9em;
+    font-size: 1.25em;
     margin: 0;
     transition: 0.15s ease;
 }
 
 .expanded {
-    max-height: calc((1 * 5.5vh) + 1vh) !important;
+    max-height: calc((1 * 2.65em) + 0.5em) !important;
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
     #header-top {
-        padding: 3vh 2vw 3vh 2vw;
-        width: 96vw;
-    }
-
-    header nav a {
-        font-size: 2.5vmax;
-        margin: 0 1vw;
-        transform: translateY(-0.625vmax);
-    }
-
-    header nav span a {
-        border: 0.4vmax solid #101018;
-        padding: 1.5vmax 2vmax;
-        margin-left: 1vw;
-        border-radius: 1vmax;
-    }
-
-    .badge-wrapper {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
+        flex-direction: column;
     }
     
-    .header-dropdown a {
-        padding: 1.5vmax 2vmax;
-    }
-    
-    .logo img {
-        width: 8vmax;
-        height: 8vmax;
-        margin: 0 1vmax;
-    }
-    
-    .logo span, .logo span a {
-        font-size: 3.5vmax;
-        transform: translateY(-1.5vmax);
+    header nav {
+        padding: 1em 0;
     }
 
-    .expanded {
-        max-height: calc((1 * 5.5vmax) + 1vmax) !important;
+    header {
+        position: initial;
     }
 }
 
 @media only screen and (orientation: portrait) {
     #header-top {
-        flex-direction: column;
+        padding: 1.5em 0.5em;
+        width: calc(100vw - 1em);
     }
-
-    .badge-wrapper {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
-        padding-bottom: 2vh;
+    
+    .logo span, .logo span a {
+        font-size: 1.25em;
+        transform: translateY(-0.57em);
     }
     
     header nav {
@@ -156,17 +128,17 @@ header nav span a {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 1fr;
         align-items: center;
-        gap: 2vh;
-        padding-bottom: 1vh;
+        gap: 1em;
+        padding-bottom: 0.5em;
     }
 
     header nav a {
-        margin: 0 1vh;
+        margin: 0 0.5em;
     }
 
     header nav span a {
         display: block;
-        padding: 1.5vh;
+        padding: 0.75em;
         border: 0;
     }
 }

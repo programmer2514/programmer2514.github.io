@@ -1,10 +1,10 @@
 class Footer {
-    
+
     init() {
         this.element = document.getElementsByTagName("footer")[0];
         this.element.innerHTML = `
             <div id="footer-top">
-                <span>Copyright &copy; 2022 Benjamin Pryor</span>
+                <span>Copyright &copy; 2023 Benjamin Pryor</span>
                 <nav id="footer-links">
                     <a target="_blank" href="https://github.com/programmer2514"><img src="/img/svg/github.svg" /></a>
                     <a target="_blank" href="https://mailhide.io/e/kHCbTHeA"><img src="/img/svg/email.svg" /></a>
@@ -16,7 +16,7 @@ class Footer {
         window.addEventListener('resize', function() {
             try {
                 footer.reposition();
-            } catch {}
+            } catch { }
         });
     }
 

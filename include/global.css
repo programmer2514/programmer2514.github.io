@@ -4,7 +4,7 @@ html, body {
     background-image: url("/img/background.png");
     background-size: 100% 100vh;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center -5vh;
     color: #e0e0e8;
     text-align: center;
     scroll-behavior: smooth;
@@ -14,7 +14,7 @@ html, body {
 }
 
 main {
-    margin: 5vmin 25vmin;
+    margin: 2em;
     border: 0;
     padding: 0;
 }
@@ -42,20 +42,14 @@ a:active {
 
 @media only screen and (hover: none) and (pointer: coarse) {
     html, body {
-        background-size: 100% 175vh;
-    }
-    
-    main {
-        margin: 5vmin 15vmin !important;
+        background-size: 100% 100vh;
+        background-position: center 63vh;
     }
 }
 
 @media only screen and (orientation: portrait) {
     html, body {
-        background-size: 200% 175vh;
-    }
-    
-    main {
-        margin: 5vmin !important;
+        background-size: 200% 100vh;
+        background-position: center 18vh;
     }
 }

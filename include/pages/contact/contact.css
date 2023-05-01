@@ -1,36 +1,40 @@
 main p {
-    font-size: 3vh;
-    margin: 0;
+    font-size: 1.25em;
+    margin: 0 auto;
     padding: 0;
     color: #b0b0b8;
+    max-width: 60em;
 }
 
 main h1 {
-    font-size: 6vh;
+    font-size: 2.5em;
     margin: 0;
-    padding: 5vh 0;
+    padding: 1em 0;
 }
 
-.contact-wrapper { 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 1fr;
-    gap: 2vmax;
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    margin-top: 10vh;
+    justify-content: center;
+    margin-top: 4em;
+    width: 100%;
 }
 
 .contact-wrapper a {
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
     background-color: #202028;
     color: #e0e0e8;
-    height: calc(100% - 10vw);
-    border-radius: 5vmin;
+    border-radius: 1em;
     cursor: pointer;
-    transition: 0.15s ease;
+    width: 15em;
+    overflow: hidden;
 }
 
 .contact-wrapper a > * {
@@ -38,78 +42,21 @@ main h1 {
 }
 
 .contact-wrapper h2 {
-    font-size: 4.5vh;
+    font-size: 2em;
     margin: 0;
-    padding: 0;
+    padding: 0.5em;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
-    .contact-wrapper h2 {
-        font-size: 5vmax;
-    }
-    
-    main p {
-        font-size: 4vmax;
-    }
-    
-    main h1 {
-        font-size: 10vmax;
-        padding: 5vmax 0;
-    }
-    
-    .contact-wrapper {
-        grid-template-columns: repeat(1, 1fr);
-    }
+main img {
+    max-height: 8em;
+    filter: invert(95%) sepia(5%) saturate(221%) hue-rotate(202deg) brightness(95%) contrast(92%);
+    padding: 0.5em;
 }
 
-.card-1 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.25), rgba(24, 24, 30, 0.25))
-                    , url('/img/svg/email.svg');
-}
-.card-1:hover {
-    background-image: linear-gradient(rgba(48, 48, 56, 0.5), rgba(48, 48, 56, 0.5))
-                    , url('/img/svg/email.svg');
-}
-.card-1:active {
-    background-image: linear-gradient(rgba(64, 64, 72, 0.5), rgba(64, 64, 72, 0.5))
-                    , url('/img/svg/email.svg');
+.contact-wrapper a:hover > * {
+    opacity: 0.8;
 }
 
-.card-2 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.25), rgba(24, 24, 30, 0.25))
-                    , url('/img/svg/discord.svg');
-}
-.card-2:hover {
-    background-image: linear-gradient(rgba(48, 48, 56, 0.5), rgba(48, 48, 56, 0.5))
-                    , url('/img/svg/discord.svg');
-}
-.card-2:active {
-    background-image: linear-gradient(rgba(64, 64, 72, 0.5), rgba(64, 64, 72, 0.5))
-                    , url('/img/svg/discord.svg');
-}
-
-.card-3 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.25), rgba(24, 24, 30, 0.25))
-                    , url('/img/svg/github.svg');
-}
-.card-3:hover {
-    background-image: linear-gradient(rgba(48, 48, 56, 0.5), rgba(48, 48, 56, 0.5))
-                    , url('/img/svg/github.svg');
-}
-.card-3:active {
-    background-image: linear-gradient(rgba(64, 64, 72, 0.5), rgba(64, 64, 72, 0.5))
-                    , url('/img/svg/github.svg');
-}
-
-.card-4 {
-    background-image: linear-gradient(rgba(24, 24, 30, 0.25), rgba(24, 24, 30, 0.25))
-                    , url('/img/svg/reddit.svg');
-}
-.card-4:hover {
-    background-image: linear-gradient(rgba(48, 48, 56, 0.5), rgba(48, 48, 56, 0.5))
-                    , url('/img/svg/reddit.svg');
-}
-.card-4:active {
-    background-image: linear-gradient(rgba(64, 64, 72, 0.5), rgba(64, 64, 72, 0.5))
-                    , url('/img/svg/reddit.svg');
+.contact-wrapper a:active > * {
+    opacity: 0.5;
 }
