@@ -20,6 +20,7 @@ class Header {
                     <a href="/about.html">About</a>
                     <a class="header-dropdown-link">Projects</a>
                         <div class="header-dropdown">
+                            <a target="_blank" href="/FediSearch">FediSearch</a>
                             <a target="_blank" href="/duotrigentordle">Duotrigentordle</a>
                         </div>
                     <span><a href="/contact.html">Contact</a></span>
