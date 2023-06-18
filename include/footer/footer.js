@@ -9,7 +9,7 @@ class Footer {
                     <a target="_blank" href="https://github.com/programmer2514"><img src="/img/svg/github.svg" /></a>
                     <a target="_blank" href="https://mailhide.io/e/kHCbTHeA"><img src="/img/svg/email.svg" /></a>
                     <a target="_blank" href="https://discord.com/users/563652755814875146/"><img src="/img/svg/discord.svg" /></a>
-                    <a target="_blank" href="https://www.reddit.com/user/programmer2514"><img src="/img/svg/reddit.svg" /></a>
+                    <a target="_blank" href="https://kbin.social/u/TenorTheHusky"><img src="/img/svg/kbin.svg" /></a>
                 </nav>
             </div>
         `;
