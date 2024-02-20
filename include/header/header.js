@@ -7,7 +7,7 @@ class Header {
                 <div class="header-title">
                     <div class="logo">
                         <a href="/"><img src="/img/user-icon.png" alt="" /></a>
-                        <span><a href="/">programmer2514</a></span>
+                        <span><a href="/">Benjamin Pryor</a></span>
                     </div>
                     <div class="badge-wrapper">
                         <a target="_blank" href="https://www.credly.com/badges/b8705b41-adac-412b-8680-83e3ffaaf995/public_url">
@@ -21,7 +21,6 @@ class Header {
                     <a class="header-dropdown-link">Projects</a>
                         <div class="header-dropdown">
                             <a target="_blank" href="/FediSearch">FediSearch</a>
-                            <a target="_blank" href="/duotrigentordle">Duotrigentordle</a>
                         </div>
                     <span><a href="/contact.html">Contact</a></span>
                 </nav>

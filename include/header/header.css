@@ -42,7 +42,7 @@ header nav span a {
 }
 
 .badge {
-    width: 1.5em;
+    width: 2em;
 }
 
 .badge-wrapper {
@@ -63,7 +63,7 @@ header nav span a {
     display: inline-block;
     font-size: 1.375em;
     margin: 0;
-    transform: translateY(-0.5em);
+    transform: translateY(-0.425em);
     font-weight: bold;
     color: #c0c0c8;
     height: 0;
@@ -95,7 +95,7 @@ header nav span a {
 }
 
 .expanded {
-    max-height: calc((2 * 2.65em) + 0.5em) !important;
+    max-height: calc((1 * 2.65em) + 0.5em) !important;
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
