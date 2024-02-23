@@ -8,3 +8,7 @@ main img {
   filter: invert(95%) sepia(5%) saturate(221%) hue-rotate(202deg) brightness(95%) contrast(92%);
   padding: 0.5em;
 }
+
+#support-banner {
+  display: none;
+}

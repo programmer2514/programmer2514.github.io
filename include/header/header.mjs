@@ -40,14 +40,14 @@ export class Header {
     `;
 
     window.addEventListener('load', this.init);
-    
+
     let _this = this;
     document.body.addEventListener('click', function(e) {
       if (!((e.x > _this.dropdown.getBoundingClientRect().left)
-         && (e.x < _this.dropdown.getBoundingClientRect().right)
-         && (e.y > _this.dropdownLink.getBoundingClientRect().top)
-         && (e.y < _this.dropdown.getBoundingClientRect().bottom)))
-          _this.closeDropdown();
+        && (e.x < _this.dropdown.getBoundingClientRect().right)
+        && (e.y > _this.dropdownLink.getBoundingClientRect().top)
+        && (e.y < _this.dropdown.getBoundingClientRect().bottom)))
+        _this.closeDropdown();
     });
   }
 
@@ -55,12 +55,11 @@ export class Header {
     this.header = document.querySelector('header');
     this.dropdown = this.headerTop.querySelector('.header-dropdown');
     this.dropdownLink = this.headerTop.querySelector('.header-dropdown-link');
-    
+
     this.header.appendChild(this.headerTop);
     this.dropdownLink.addEventListener('click', this.toggleDropdown);
 
-    if (!(localStorage.getItem("bannerClosed")
-      || (document.querySelector('.donate-wrapper')))) {
+    if (!localStorage.getItem("bannerClosed")) {
       this.showBanner();
     }
   }
