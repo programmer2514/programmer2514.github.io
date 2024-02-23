@@ -1,172 +1,208 @@
 header {
-    padding: 0;
-    margin: 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 #header-top {
-    background: black;
-    padding: 1.5em;
-    margin: 0;
-    width: calc(100vw - 3em);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: black;
+  padding: 1.5em;
+  margin: 0;
+  width: calc(100vw - 3em);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header nav a {
-    font-size: 1.25em;
-    margin: 0;
-    transform: translateY(-0.3125em);
-    color: #c0c0c8;
-    height: 0;
-    text-decoration: none;
-    transition: 0.15s ease;
-    padding: 0.5em;
-    cursor: pointer;
+  font-size: 1.25em;
+  margin: 0;
+  transform: translateY(-0.3125em);
+  color: #c0c0c8;
+  height: 0;
+  text-decoration: none;
+  transition: 0.15s ease;
+  padding: 0.5em;
+  cursor: pointer;
 }
 
 header nav span a {
-    display: inline;
-    border: 0.1em solid #101018;
-    padding: 0.7em 0.9em;
-    margin-left: 0.5em;
-    border-radius: 0.5em;
+  display: inline;
+  border: 0.1em solid #101018;
+  padding: 0.7em 0.9em;
+  margin-left: 0.5em;
+  border-radius: 0.5em;
 }
 
 .header-title {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .badge {
-    width: 2em;
+  width: 2em;
 }
 
 .badge-wrapper {
-    padding: 0;
-    margin: 0 0.5em;
-    transform: translateY(1em);
+  padding: 0;
+  margin: 0 0.5em;
+  transform: translateY(1em);
 }
 
 .logo img {
-    width: 4em;
-    border-radius: 50%;
-    margin: 0 0.5em;
-    vertical-align: center;
-    transition: 0.15s ease;
+  width: 4em;
+  border-radius: 50%;
+  margin: 0 0.5em;
+  vertical-align: center;
+  transition: 0.15s ease;
 }
 
 .logo span, .logo span a {
-    display: inline-block;
-    font-size: 1.375em;
-    margin: 0;
-    transform: translateY(-0.425em);
-    font-weight: bold;
-    color: #c0c0c8;
-    height: 0;
-    text-decoration: none;
-    transition: 0.15s ease;
-    padding: 0;
+  display: inline-block;
+  font-size: 1.375em;
+  margin: 0;
+  transform: translateY(-0.425em);
+  font-weight: bold;
+  color: #c0c0c8;
+  height: 0;
+  text-decoration: none;
+  transition: 0.15s ease;
+  padding: 0;
 }
 
 .header-dropdown {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-    gap: 0;
-    z-index: 100;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.15s ease;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+  z-index: 100;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.15s ease;
 }
 
 .header-dropdown a {
-    height: auto;
-    background: #020204;
-    padding: 0.7em 0.9em;
-    font-size: 1.25em;
-    margin: 0;
-    transition: 0.15s ease;
+  height: auto;
+  background: #020204;
+  padding: 0.7em 0.9em;
+  font-size: 1.25em;
+  margin: 0;
+  transition: 0.15s ease;
 }
 
 .expanded {
-    max-height: calc((1 * 2.65em) + 0.5em) !important;
+  max-height: calc((1 * 2.65em) + 0.5em) !important;
+}
+
+#support-banner {
+  background: #4070c0;
+  font-size: 1em;
+  margin: 0;
+  width: calc(100vw - 2em);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  height: 0;
+  padding: 0 1em;
+  transition: height 0.5s ease,
+              padding-top 0.5s ease,
+              padding-bottom 0.5s ease;
+}
+
+#support-banner p {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+#support-banner a {
+  text-decoration: underline;
+  color: #a0c0ff;
+}
+
+#close-banner {
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+#close-banner img {
+  width: 0.75em;
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
-    #header-top {
-        flex-direction: column;
-    }
-    
-    header nav {
-        padding: 1em 0;
-    }
+  #header-top {
+    flex-direction: column;
+  }
+  
+  header nav {
+    padding: 1em 0;
+  }
 
-    header {
-        position: initial;
-    }
+  header {
+    position: initial;
+  }
 }
 
 @media only screen and (orientation: portrait) {
-    #header-top {
-        padding: 1.5em 0.5em;
-        width: calc(100vw - 1em);
-    }
-    
-    .logo span, .logo span a {
-        font-size: 1.25em;
-        transform: translateY(-0.57em);
-    }
-    
-    header nav {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 1fr;
-        align-items: center;
-        gap: 1em;
-        padding-bottom: 0.5em;
-    }
+  #header-top {
+    padding: 1.5em 0.5em;
+    width: calc(100vw - 1em);
+  }
+  
+  .logo span, .logo span a {
+    font-size: 1.25em;
+    transform: translateY(-0.57em);
+  }
+  
+  header nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    align-items: center;
+    gap: 1em;
+    padding-bottom: 0.5em;
+  }
 
-    header nav a {
-        margin: 0 0.5em;
-    }
+  header nav a {
+    margin: 0 0.5em;
+  }
 
-    header nav span a {
-        display: block;
-        padding: 0.75em;
-        border: 0;
-    }
+  header nav span a {
+    display: block;
+    padding: 0.75em;
+    border: 0;
+  }
 }
 
 .logo span a:hover, header nav a:hover {
-    color: #e0e0e8;
+  color: #e0e0e8;
 }
 
 .logo span a:active, header nav a:active {
-    color: white;
+  color: white;
 }
 
 header nav span a:hover {
-    border-color: #202028;
+  border-color: #202028;
 }
 
 header nav span a:active {
-    border-color: #303038;
+  border-color: #303038;
 }
 
 .header-dropdown a:hover {
-    background: #080810;
+  background: #080810;
 }
 
 .header-dropdown a:active {
-    background: #101018;
+  background: #101018;
 }
 
 .logo img:hover {
-    border-radius: 25%;
+  border-radius: 25%;
 }

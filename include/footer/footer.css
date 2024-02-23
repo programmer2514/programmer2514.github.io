@@ -1,53 +1,87 @@
 footer {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #footer-top {
-    background: black;
-    padding: 1.5em;
-    margin: 0;
-    width: calc(100vw - 3em);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: black;
+  padding: 1.5em;
+  margin: 0;
+  width: calc(100vw - 3em);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer img {
-    display: inline;
-    margin: 0;
-    cursor: pointer;
-    width: 2em;
-    padding-left: 0.5em;
-    transition: 0.15s ease;
-    filter: contrast(0) brightness(1);
+  display: inline;
+  margin: 0;
+  cursor: pointer;
+  width: 2em;
+  padding-left: 0.5em;
+  transition: 0.15s ease;
+  filter: contrast(0) brightness(1);
 }
 
 footer span {
-    display: inline;
-    font-size: 0.8em;
-    margin: 0;
-    transform: translateY(-0.6em);
-    color: #808880;
-    height: 0;
-    text-decoration: none;
+  display: inline;
+  font-size: 0.9em;
+  margin: 0;
+  transform: translateY(-0.6em);
+  color: #808880;
+  height: 0;
+  text-decoration: none;
+}
+
+footer div {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+footer div > a {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0.7em 0.9em;
+  color: #c0c0c8;
+  height: 0;
+  text-decoration: none;
+  transition: 0.15s ease;
+  cursor: pointer;
+  display: inline;
+  border: 0.1em solid #101018;
+  border-radius: 0.5em;
 }
 
 @media only screen and (orientation: portrait) {
-    #footer-top {
-        flex-direction: column;
-    }
+  #footer-top {
+    flex-direction: column;
+  }
 
-    footer span {
-        padding-top: 0.75em;
-        padding-bottom: 2.75em;
-    }
+  footer span {
+    padding-top: 0.75em;
+    padding-bottom: 2.75em;
+  }
+
+  footer div {
+    padding: 1em 0 3em 0;
+  }
 }
 
 footer img:hover {
-    filter: contrast(0) brightness(1.5);
+  filter: contrast(0) brightness(1.5);
 }
 
 footer img:active {
-    filter: contrast(0) brightness(2);
+  filter: contrast(0) brightness(2);
+}
+
+footer div > a:hover {
+  color: #e0e0e8;
+  border-color: #202028;
+}
+
+footer div > a:active {
+  color: white;
+  border-color: #303038;
 }

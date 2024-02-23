@@ -1,1 +1,0 @@
-let main = document.getElementsByTagName("main")[0];

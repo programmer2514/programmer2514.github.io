@@ -1,0 +1,36 @@
+.card-wrapper {
+  margin-top: 2em;
+}
+
+.card-wrapper a {
+  padding: 0;
+  height: 28em;
+  max-height: 90vh;
+  width: 30em;
+}
+
+.card-wrapper h2 {
+  padding: 1em 0;
+  flex-grow: 1;
+}
+
+.img-wrapper {
+  overflow: hidden;
+  max-height: 45%;
+  flex-shrink: 1;
+  background-color: #000000;
+}
+
+main img {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
+main p {
+  margin: 0 auto;
+  padding: 0 2em 2em 2em;
+  flex-grow: 1;
+  max-width: 60em;
+}
