@@ -1,5 +1,5 @@
 .card-wrapper {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .card-wrapper a {
@@ -9,16 +9,33 @@
   width: 30em;
 }
 
-.card-wrapper h2 {
-  padding: 1em 0;
+.card-wrapper h3 {
+  padding: 1em;
   flex-grow: 1;
+}
+
+.card-wrapper p {
+  padding-bottom: 1.5em;
 }
 
 .img-wrapper {
   overflow: hidden;
-  max-height: 45%;
-  flex-shrink: 1;
+  flex-grow: 1;
+  max-height: 14em;
+  width: 100%;
   background-color: #000000;
+}
+
+.img-wrapper img {
+  width: 100%;
+}
+
+.fullwidth a {
+  height: 31.5em;
+}
+
+.fullwidth .img-wrapper {
+  max-height: unset;
 }
 
 main img {
@@ -30,7 +47,7 @@ main img {
 
 main p {
   margin: 0 auto;
-  padding: 0 2em 2em 2em;
+  padding: 0 2em 0 2em;
   flex-grow: 1;
   max-width: 60em;
 }

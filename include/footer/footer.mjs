@@ -11,7 +11,6 @@ export class Footer {
         <a target="_blank" href="https://github.com/programmer2514"><img src="/img/svg/github.svg" /></a>
         <a target="_blank" href="https://www.linkedin.com/in/benjaminjpryor/"><img src="/img/svg/linkedin.svg" /></a>
         <a target="_blank" href="https://discord.com/users/563652755814875146/"><img src="/img/svg/discord.svg" /></a>
-        <a target="_blank" href="https://kbin.social/u/TenorTheHusky"><img src="/img/svg/kbin.svg" /></a>
       </nav>
     `;
 

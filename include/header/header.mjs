@@ -18,9 +18,10 @@ export class Header {
       <nav id="header-links">
         <a href="/">Home</a>
         <a href="/about.html">About</a>
-        <a class="header-dropdown-link">Projects</a>
+        <a class="header-dropdown-link">Live Projects</a>
           <div class="header-dropdown">
             <a target="_blank" href="/FediSearch">FediSearch</a>
+            <a target="_blank" href="https://richlandcountyparks.com/">RCPD Website</a>
           </div>
         <span><a href="/contact.html">Contact</a></span>
       </nav>
@@ -66,7 +67,7 @@ export class Header {
 
   toggleDropdown = () => {
     this.dropdown.style.top = this.header.getBoundingClientRect().bottom + 'px';
-    this.dropdown.style.left = this.dropdownLink.getBoundingClientRect().left + 'px';
+    this.dropdown.style.left = 'calc(' + this.dropdownLink.getBoundingClientRect().left + 'px - 0.5em)';
     this.dropdown.classList.toggle('expanded');
   }
 
