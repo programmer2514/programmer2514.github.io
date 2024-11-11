@@ -105,7 +105,7 @@ header nav span a {
   background: #4070c0;
   font-size: 1em;
   margin: 0;
-  width: calc(100vw - 2em);
+  width: calc(100% - 2em);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,38 +137,24 @@ header nav span a {
   width: 0.75em;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media (max-width: 850px) {
   #header-top {
     flex-direction: column;
-  }
-  
-  header nav {
-    padding: 1em 0;
+    padding: 1.5em 0.5em;
+    width: calc(100% - 1em);
   }
 
   header {
     position: initial;
   }
-}
 
-@media only screen and (orientation: portrait) {
-  #header-top {
-    padding: 1.5em 0.5em;
-    width: calc(100vw - 1em);
-  }
-  
-  .logo span, .logo span a {
-    font-size: 1.25em;
-    transform: translateY(-0.57em);
-  }
-  
   header nav {
+    padding: 1em 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
     align-items: center;
     gap: 1em;
-    padding-bottom: 0.5em;
   }
 
   header nav a {

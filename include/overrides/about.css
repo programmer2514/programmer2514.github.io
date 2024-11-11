@@ -2,7 +2,7 @@ main div {
   width: 60em;
 }
 
-main p, ul {
+main p, main ul {
   font-size: 1.25em;
   margin: 1em;
   text-align: left;
@@ -14,6 +14,15 @@ main p {
 
 main img {
   width: 100%;
+}
+
+li ul {
+  font-size: 1em;
+  margin: 0;
+}
+
+.list {
+  columns: 2;
 }
 
 .img-wrapper {
@@ -30,4 +39,10 @@ main img {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+}
+
+@media (max-width: 850px) {
+  .list {
+    columns: 1;
+  } 
 }

@@ -5,9 +5,9 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
   background: #101018;
   background-image: url("/img/background.webp");
-  background-size: 100% 100vh;
+  background-size: 100% 32em;
   background-repeat: no-repeat;
-  background-position: center -5vh;
+  background-position: center 13.25em;
   color: #e0e0e8;
   text-align: center;
   scroll-behavior: smooth;
@@ -17,19 +17,21 @@ html, body {
 }
 
 main {
-  margin: 2em;
+  margin: 0;
   border: 0;
-  padding: 0;
+  padding: 2em;
 }
 
-main > * {
+main > *,
+section > * {
   margin: 0;
   padding: 0;
 }
 
-main p {
+main p, main ul {
   font-size: 1.25em;
-  color: #b0b0b8;
+  color: #d0c0c8;
+  line-height: 1.25;
 }
 
 main h1 {
@@ -85,17 +87,9 @@ a {
   padding: 0.5em;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media (max-width: 850px) {
   html, body {
-    background-size: 100% 100vh;
-    background-position: center 63vh;
-  }
-}
-
-@media only screen and (orientation: portrait) {
-  html, body {
-    background-size: 200% 100vh;
-    background-position: center 18vh;
+    background-position: center 20em;
   }
 }
 

@@ -2,6 +2,10 @@
 <html lang="en">
 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="index, follow">
+
     <title>Benjamin Pryor | About Me</title>
     <meta name="description"
       content="I'm a full-stack developer who writes random tools and programs. Feel free to stop by and check out my various projects.">
@@ -20,10 +24,6 @@
     <meta name="twitter:image"
       content="https://programmer2514.github.io/img/user-icon.png?v=1.0">
     <meta name="twitter:card" content="summary_large_image">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="robots" content="index, follow">
 
     <link rel="apple-touch-icon" sizes="57x57"
       href="/img/favicons/apple-icon-57x57.png?v=1.0">
@@ -67,39 +67,122 @@
   <body>
     <header></header>
 
+    <noscript>
+      <style>
+        main {
+          display: none;
+        }
+        h1 {
+          position: fixed;
+          top: 50%; left: 50%;
+          margin: 0; padding: 8em 2em;
+          transform: translate(-50%, -50%);
+          background: rgba(0, 0, 0, 0.5);
+          border-radius: 1em;
+        }
+      </style>
+      <h1>This site requires Javascript to work properly.</h1>
+    </noscript>
+
     <main>
       <h1>About Me</h1>
       <div class="content">
-        <div class="img-wrapper"><img src="/img/profile.webp?v=1.0" /></div>
+        <div class="img-wrapper">
+          <img src="/img/profile.jpg?v=1.0" />
+        </div>
         <div>
-          <p>My name is Benjamin Pryor, and I am a full-stack developer with a
+          <p>
+            My name is Benjamin Pryor, and I am a full-stack developer with a
             strong enthusiasm for experimenting with new programming languages
             and creating various helpful tools and applications. My programming
             journey began at a young age on a TI-82 graphing calculator, a
-            passion that has only grown since. Today, I am proficient in a wide
-            array of languages languages, including:</p>
-          <ul>
-            <li>C/C++</li>
-            <li>Python</li>
-            <li>Javascript/CSS/HTML</li>
-            <li>PHP/AJAX</li>
-            <li>Java</li>
-            <li>Bash/sh</li>
-            <li>Batch/Powershell</li>
+            passion that has only grown since. Today, I am capable of
+            programming in a wide array of languages, including:
+          </p>
+          <ul class="list">
+            <li>Javascript/HTML/CSS
+              <ul>
+                <li>Vanilla</li>
+                <li>JQuery</li>
+                <li>Typescript</li>
+                <li>JSX/TSX</li>
+                <li>EJS</li>
+                <li>Tailwind</li>
+                <li>Node.js
+                  <ul>
+                    <li>React</li>
+                    <li>Vercel</li>
+                    <li>Discord.js</li>
+                    <li>Nexe/pkg</li>
+                    <li>Webpack</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Java
+              <ul>
+                <li>Swing/AWT</li>
+                <li>Maven/Gradle</li>
+                <li>JUnit</li>
+              </ul>
+            </li>
+            <li>Python
+              <ul>
+                <li>PyPI</li>
+                <li>Tkinter</li>
+              </ul>
+            </li>
+            <li>C/C++
+              <ul>
+                <li>Linux</li>
+                <li>Windows</li>
+                <li>Zilog (e)Z80</li>
+                <li>Unreal Engine 3/4/5</li>
+                <li>Make</li>
+              </ul>
+            </li>
+            <li>C#
+              <ul>
+                <li>.NET</li>
+                <li>Unity</li>
+              </ul>
+            </li>
+            <li>Shell
+              <ul>
+                <li>Bash/sh</li>
+                <li>CMD</li>
+                <li>PowerShell</li>
+              </ul>
+            </li>
+            <li>Assembly
+              <ul>
+                <li>x86/AMD64</li>
+                <li>(e)Z80</li>
+              </ul>
+            </li>
+            <li>Basic
+              <ul>
+                <li>TI-8X/Nspire (Z80/ARM9)</li>
+                <li>Casio (SuperH)</li>
+              </ul>
+            </li>
             <li>AutoHotKey</li>
-            <li>C#</li>
-            <li>Assembly (mainly eZ80)</li>
-            <li>TI-Basic</li>
-            <li>And more...</li>
           </ul>
-          <p>I am dedicated to continuously learning new languages, frameworks,
+          <p>
+            I am dedicated to continuously learning new languages, frameworks,
             and algorithms to tackle and solve complex challenges. I approach
             every project with a focus on optimization, readability, and
             adaptability. While I may not be perfect, I view every challenge as
-            an opportunity to enhance my skills.</p>
-          <p>If you have questions, suggestions, comments, ideas, or free cake,
-            please feel free to <a href="/contact.html">contact me</a> and I'll
-            respond as soon as possible.</p>
+            an opportunity to enhance my skills.
+          </p>
+          <p>
+            If you have questions, suggestions, comments, ideas, or free cake,
+            please feel free to
+            <a href="/contact.html">
+              contact me
+            </a>
+            and I'll respond as soon as possible.
+          </p>
         </div>
       </div>
     </main>
@@ -108,6 +191,6 @@
 
     <!-- Javascript -->
     <script type="module" src="/include/script.js?v=1.0"></script>
-  </body>
 
+  </body>
 </html>

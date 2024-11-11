@@ -6,7 +6,7 @@ export class Header {
     this.headerTop.innerHTML = `
       <div class="header-title">
         <div class="logo">
-          <a href="/"><img src="/img/user-icon.webp" alt="" /></a>
+          <a href="/"><img src="/img/user-icon.jpg" alt="" /></a>
           <span><a href="/">Benjamin Pryor</a></span>
         </div>
         <div class="badge-wrapper">
@@ -18,7 +18,7 @@ export class Header {
       <nav id="header-links">
         <a href="/">Home</a>
         <a href="/about.html">About</a>
-        <a class="header-dropdown-link">Live Projects</a>
+        <a class="header-dropdown-link">Projects</a>
           <div class="header-dropdown">
             <a target="_blank" href="/FediSearch">FediSearch</a>
             <a target="_blank" href="https://richlandcountyparks.com/">RCPD Website</a>
@@ -32,7 +32,7 @@ export class Header {
     this.supportBanner.innerHTML = `
       <p>Thanks for stopping by!
         If you like what I do, please consider <a href="/donate.html">donating</a>.
-        It helps me a ton. If not, no worries! 
+        It helps me a ton. If not, no worries!
         Feel free to close this banner and I'll do my best not to show it to you again.
         Thank you for using my programs! :)</p>
       <a id="close-banner">
