@@ -18,11 +18,6 @@ export class Header {
       <nav id="header-links">
         <a href="/">Home</a>
         <a href="/about.html">About</a>
-        <a class="header-dropdown-link">Projects</a>
-          <div class="header-dropdown">
-            <a target="_blank" href="/FediSearch">FediSearch</a>
-            <a target="_blank" href="https://richlandcountyparks.com/">RCPD Website</a>
-          </div>
         <span><a href="/contact.html">Contact</a></span>
       </nav>
     `;
@@ -41,38 +36,16 @@ export class Header {
     `;
 
     window.addEventListener('load', this.init);
-
-    let _this = this;
-    document.body.addEventListener('click', function(e) {
-      if (!((e.x > _this.dropdown.getBoundingClientRect().left)
-        && (e.x < _this.dropdown.getBoundingClientRect().right)
-        && (e.y > _this.dropdownLink.getBoundingClientRect().top)
-        && (e.y < _this.dropdown.getBoundingClientRect().bottom)))
-        _this.closeDropdown();
-    });
   }
 
   init = () => {
     this.header = document.querySelector('header');
-    this.dropdown = this.headerTop.querySelector('.header-dropdown');
-    this.dropdownLink = this.headerTop.querySelector('.header-dropdown-link');
 
     this.header.appendChild(this.headerTop);
-    this.dropdownLink.addEventListener('click', this.toggleDropdown);
 
     if (!localStorage.getItem("bannerClosed")) {
       this.showBanner();
     }
-  }
-
-  toggleDropdown = () => {
-    this.dropdown.style.top = this.header.getBoundingClientRect().bottom + 'px';
-    this.dropdown.style.left = 'calc(' + this.dropdownLink.getBoundingClientRect().left + 'px - 0.5em)';
-    this.dropdown.classList.toggle('expanded');
-  }
-
-  closeDropdown = () => {
-    this.dropdown.classList.remove('expanded');
   }
 
   showBanner = () => {
