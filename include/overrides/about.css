@@ -44,5 +44,5 @@ li ul {
 @media (max-width: 850px) {
   .list {
     columns: 1;
-  } 
+  }
 }
