@@ -7,7 +7,7 @@ export class Footer {
       <span>Copyright &copy; ${new Date().getFullYear()} Benjamin Pryor</span>
       <div><a href="/donate.html">Donate</a></div>
       <nav id="footer-links">
-        <a target="_blank" href="https://mailhide.io/e/kHCbTHeA"><img src="/img/svg/email.svg" /></a>
+        <a target="_blank" href="https://mailhide.io/e/4IH7DL3h"><img src="/img/svg/email.svg" /></a>
         <a target="_blank" href="https://github.com/programmer2514"><img src="/img/svg/github.svg" /></a>
         <a target="_blank" href="https://www.linkedin.com/in/benjaminjpryor/"><img src="/img/svg/linkedin.svg" /></a>
         <a target="_blank" href="https://discord.com/users/563652755814875146/"><img src="/img/svg/discord.svg" /></a>
