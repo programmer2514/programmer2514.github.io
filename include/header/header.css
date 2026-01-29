@@ -42,13 +42,19 @@ header nav span a {
 }
 
 .badge {
-  width: 2em;
+  height: 2.5em;
 }
 
-.badge-wrapper {
+.badge-wrapper-1 {
   padding: 0;
-  margin: 0 0.5em;
-  transform: translateY(1em);
+  margin: 0 0 0 0.75em;
+  transform: translateY(0.75em);
+}
+
+.badge-wrapper-2 {
+  padding: 0;
+  margin: 0 0 0 0.75em;
+  transform: translateY(0.9em);
 }
 
 .logo img {

@@ -9,9 +9,14 @@ export class Header {
           <a href="/"><img src="/img/user-icon.jpg" alt="" /></a>
           <span><a href="/">Benjamin Pryor</a></span>
         </div>
-        <div class="badge-wrapper">
+        <div class="badge-wrapper-1">
           <a target="_blank" href="https://www.credly.com/badges/b8705b41-adac-412b-8680-83e3ffaaf995/public_url">
             <img class="badge" src="https://user-images.githubusercontent.com/43104632/206700432-5f75c05d-7306-493b-9b1e-83fcefc3eb27.png" alt="" />
+          </a>
+        </div>
+        <div class="badge-wrapper-2">
+          <a target="_blank" href="https://badges.parchment.com/public/assertions/SdkQS69LSvKzEjay-4SjLg?identity__email=pryorbj@miamioh.edu">
+            <img class="badge" src="https://media.badges.parchment.com/uploads/badges/assertion-SdkQS69LSvKzEjay-4SjLg.png?versionId=XiXOw9GAtUe7lwiWPBSR1RKk6TyADHii" alt="" />
           </a>
         </div>
       </div>
