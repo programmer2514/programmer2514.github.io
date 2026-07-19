@@ -1,10 +1,12 @@
-main p {
-  margin: 0 auto;
-  max-width: 60em;
-}
-
-main img {
-  max-height: 8em;
-  filter: invert(95%) sepia(5%) saturate(221%) hue-rotate(202deg) brightness(95%) contrast(92%);
-  padding: 0.5em;
+main {
+  p {
+    margin: 0 auto;
+    max-width: 60rem;
+  }
+  
+  img {
+    max-height: 8rem;
+    filter: invert(95%) sepia(5%) saturate(221%) hue-rotate(202deg) brightness(95%) contrast(92%);
+    padding: 0.5rem;
+  }
 }

@@ -4,7 +4,7 @@ import { Footer } from './footer/footer.mjs';
 new Header();
 new Footer();
 
-window.addEventListener('load', () => {
+window.addEventListener('DOMContentLoaded', () => {
   resizeFullwidthCards();
   setTimeout(resizeFullwidthCards, 250);
 });

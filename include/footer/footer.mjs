@@ -27,6 +27,6 @@ export class Footer {
 
   reposition = () => {
     document.querySelector('main').style.minHeight = (window.innerHeight
-      - document.body.offsetHeight + document.querySelector('main').offsetHeight) + 'px';
+      - document.body.offsetHeight + document.querySelector('main').offsetHeight) - 64 + 'px';
   }
 }
